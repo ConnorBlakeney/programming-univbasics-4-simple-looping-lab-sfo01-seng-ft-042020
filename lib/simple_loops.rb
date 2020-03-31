@@ -15,3 +15,7 @@ def loop_message_n_times(message, limit)
     n += 1
   end 
 end 
+
+def output_array(message, number)
+  number.Times puts message
+end 
